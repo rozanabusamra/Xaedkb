@@ -1,0 +1,41 @@
+body {
+    font-family: "Titillium Web", sans-serif;
+    direction: ltr;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #143d3c;
+    font-weight: bold;
+}
+.bg-dark{
+    background: rgba(0,0,0,0) !important;
+}
+.logoImg{
+    max-height: 48px;
+    max-width: 185px
+}
+.navbar-dark .navbar-nav .nav-link{
+    padding: 30px 15px;
+    font-weight: 600;
+    color: #4a4a4a;
+    transition-duration: 0.3s
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+color: #fe6d34;
+transition-duration: 0.3s
+}
+
+.navbar .collapse form a{
+    font-weight: 600;
+    color: #fe6d34
+}
+.navbar .collapse form a:first-child{
+    margin-right: 25px;
+    margin-left: 50px
+}
+.navbar .collapse form a:last-child{
+    padding: 0px 25px;
+    background: #fe6d34;
+    color: #fff;
+    border-radius: 40px;
+    line-height: 45px;
+}
